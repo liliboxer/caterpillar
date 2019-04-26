@@ -32,26 +32,26 @@ button img {
     position: relative;
 }
 
-.red {
+.red-donut {
     color: rgb(255, 138, 138);
 }
 
-.orange {
+.orange-donut {
     color: orange;
 }
 
-.yellow {
+.yellow-donut {
     color: rgb(255, 255, 111);
 }
 
-.green {
+.green-donut {
     color: rgb(88, 213, 138);
 }
 
-.blue {
+.blue-donut {
     color: rgb(26, 133, 227);
 }
 
-.purple {
+.purple-donut {
     color: rgb(208, 103, 208);
 }

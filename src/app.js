@@ -1,11 +1,14 @@
+import feedSlinky from '../src/feed-slinky.js';
+
 const donutButtons = document.querySelectorAll('.donut');
+const body = document.getElementById('body');
 
-for (let i = 0; i < donutButtons.length; i++) {
+for(let i = 0; i < donutButtons.length; i++) {
     const donutButton = donutButtons[i];
-    console.log(donutButton);
     
-}
+    donutButton.addEventListener('click', () => {
+        
+        feedSlinky(body, donutButton.value);
 
-// donutButton.addEventListener('click', () => {
-    
-// });
+    });
+}

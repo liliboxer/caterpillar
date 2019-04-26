@@ -4,7 +4,6 @@ function feedSlinky(parentElement, donutName) {
     span.classList.add(donutName);
     
     parentElement.appendChild(span);
-
 }
 
 export default feedSlinky;
