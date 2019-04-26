@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    margin: 40px;
+}
+
+button img {
+    width: 100px;
+    height: 100px;
+}
+
+#body, #tail {
+    display: inline-block
+}
+
+.head {
+    margin-top: 40px;
+    position: relative;
+}
+
+.part {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 35px solid;
+    margin-bottom: 45px;
+    margin-left: -15px;
+}
+
+.tail {
+    margin-left: -33px;
+    position: relative;
+
+}
+
+.red-donut {
+    color: rgb(255, 138, 138);
+}
+
+.orange-donut {
+    color: orange;
+}
+
+.yellow-donut {
+    color: rgb(255, 255, 111);
+}
+
+.green-donut {
+    color: rgb(88, 213, 138);
+}
+
+.blue-donut {
+    color: rgb(26, 133, 227);
+}
+
+.purple-donut {
+    color: rgb(208, 103, 208);
+}
