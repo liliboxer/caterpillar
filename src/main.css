@@ -11,6 +11,10 @@ button img {
     height: 100px;
 }
 
+#body {
+    display: inline-block
+}
+
 .head {
     margin-top: 40px;
     position: relative;
@@ -28,8 +32,9 @@ button img {
 }
 
 .tail {
-    margin-left: -45px;
+    margin-left: -33px;
     position: relative;
+
 }
 
 .red-donut {
