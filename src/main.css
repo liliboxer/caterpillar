@@ -1,8 +1,51 @@
+body {
+    text-align: center;
+}
 h1{
     font-family: Helvetica, sans-serif;
+    margin: 40px;
 }
 
-button.donut {
+button img {
     width: 100px;
     height: 100px;
-};
+}
+
+.head {
+    margin-top: 40px;
+}
+
+.part {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 35px solid;
+    margin-bottom: 45px;
+    margin-left: -15px;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.purple {
+    color: purple;
+}
