@@ -13,6 +13,7 @@ button img {
 
 .head {
     margin-top: 40px;
+    position: relative;
 }
 
 .part {
@@ -26,8 +27,13 @@ button img {
     margin-left: -15px;
 }
 
+.tail {
+    margin-left: -45px;
+    position: relative;
+}
+
 .red {
-    color: red;
+    color: rgb(255, 138, 138);
 }
 
 .orange {
@@ -35,17 +41,17 @@ button img {
 }
 
 .yellow {
-    color: yellow;
+    color: rgb(255, 255, 111);
 }
 
 .green {
-    color: green;
+    color: rgb(88, 213, 138);
 }
 
 .blue {
-    color: blue;
+    color: rgb(26, 133, 227);
 }
 
 .purple {
-    color: purple;
+    color: rgb(208, 103, 208);
 }
