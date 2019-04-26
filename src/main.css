@@ -11,7 +11,7 @@ button img {
     height: 100px;
 }
 
-#body {
+#body, #tail {
     display: inline-block
 }
 
