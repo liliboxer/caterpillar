@@ -7,13 +7,12 @@ test('adds donut to slinky', function(assert) {
     // Set up your parameters and expectations
     const donutName = 'red';
     const parentElement = document.createElement('div');
-    const expected = "<span class='part red'></span>";
-
+    const expected = '<span class="part red"></span>';
+    
     //Act 
     // Call the function you're testing and set the result to a const
     feedSlinky(parentElement, donutName);
 
     //Assert
-    const parentInnerHTML = parentElement.innterHTML;
-    assert.equal(parentInnerHTML, expected);
+    assert.equal(parentElement.innerHTML, expected);
 });
