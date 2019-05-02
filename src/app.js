@@ -18,29 +18,31 @@ for(let i = 0; i < donutButtons.length; i++) {
 
 const danceButtons = document.querySelectorAll('.dance');
 
-for (let i = 0; i < danceButtons.length; i++) {
+for(let i = 0; i < danceButtons.length; i++) {
     const danceButton = danceButtons[i];
 
     danceButton.addEventListener('click', () => {
-
-
+        removeAllDancing();
+        addDancing(danceButton.value);
     });
     
 }
 
 function removeAllDancing() {
     const dancingParts = document.querySelectorAll('.dance');
-    for (let i = 0; i < dancingParts.length; i++) {
+    for(let i = 0; i < dancingParts.length; i++) {
         const dancingPart = dancingParts[i];
         dancingPart.classList.remove('dance');
     }
-};
+}
 
-function addDancing() {
-    const staticParts = document.querySelectorAll('.dance');
-    for (let i = 0; i < staticParts.length; i++) {
-        const staticPart = staticParts[i];
-        staticPart.classList.add('dance');
+function addDancing(donutUp) {
+    const colorButtons = document.querySelectorAll('.dance');
+    for(let i = 0; i < colorButtons.length; i++) {
+        const colorButton = colorButtons[i];
+        if(colorButton.classList.contains(donutUp)) {
+            colorButton.classList.add('dancing');
+        }
     }
     
 }
