@@ -13,3 +13,5 @@ for(let i = 0; i < donutButtons.length; i++) {
 
     });
 }
+
+// dancing functions
