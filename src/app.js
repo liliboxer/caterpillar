@@ -44,7 +44,7 @@ function addDancing(donutUp) {
     for(let i = 0; i < colorSections.length; i++) {
         const colorSection = colorSections[i];
         if(colorSection.classList.contains(donutUp)) {
-            colorSection.classList.add('dancing');
+            colorSection.classList.add('dance');
         }
     }
     
