@@ -1,5 +1,4 @@
 import feedSlinky from '../src/feed-slinky.js';
-import removeAllDancing from './remove-all-dancing.js';
 
 const donutButtons = document.querySelectorAll('.donut');
 const body = document.getElementById('body');
@@ -38,8 +37,7 @@ function removeAllDancing() {
     
 };
 
-function addDancing() {
-    const dancingParts = document.querySelectorAll('.dance');
-    dancingParts.classList.add('dance');
+function addDancing(donutButton) {
+    donutButton.classList.add('dance');
 }
 
