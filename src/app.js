@@ -13,3 +13,40 @@ for(let i = 0; i < donutButtons.length; i++) {
 
     });
 }
+
+// dancing function
+
+const danceButtons = document.querySelectorAll('.dance-button');
+
+for(let i = 0; i < danceButtons.length; i++) {
+    const danceButton = danceButtons[i];
+
+    danceButton.addEventListener('click', () => {
+        removeAllDancing();
+        addDancing(danceButton.value);
+        console.log(danceButton);
+    });
+    
+}
+
+function removeAllDancing() {
+    const colorSections = document.querySelectorAll('.dance');
+    for(let i = 0; i < colorSections.length; i++) {
+        const colorSection = colorSections[i];
+        colorSection.classList.remove('dance');
+        console.log(colorSection);
+    }
+}
+
+
+function addDancing(donutUp) {
+    const colorSections = document.querySelectorAll('.part');
+    for(let i = 0; i < colorSections.length; i++) {
+        const colorSection = colorSections[i];
+        if(colorSection.classList.contains(donutUp)) {
+            colorSection.classList.add('dance');
+        }
+    }
+    
+}
+
