@@ -31,10 +31,10 @@ for (let i = 0; i < danceButtons.length; i++) {
 
 function removeAllDancing() {
     const dancingParts = document.querySelectorAll('.dance');
-        for (let i = 0; i < dancingParts.length; i++) {
-            const dancingPart = dancingParts[i];
-            dancingPart.classList.remove(dance);
-        }
+    for (let i = 0; i < dancingParts.length; i++) {
+        const dancingPart = dancingParts[i];
+        dancingPart.classList.remove("dance");
+    }
     
 };
 
