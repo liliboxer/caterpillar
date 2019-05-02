@@ -30,21 +30,21 @@ for(let i = 0; i < danceButtons.length; i++) {
 }
 
 function removeAllDancing() {
-    const colorButtons = document.querySelectorAll('.dance');
-    for(let i = 0; i < colorButtons.length; i++) {
-        const colorButton = colorButtons[i];
-        colorButton.classList.remove('dance');
-        console.log(colorButton);
+    const colorSections = document.querySelectorAll('.dance');
+    for(let i = 0; i < colorSections.length; i++) {
+        const colorSection = colorSections[i];
+        colorSection.classList.remove('dance');
+        console.log(colorSection);
     }
 }
 
 
 function addDancing(donutUp) {
-    const colorButtons = document.querySelectorAll('.dance');
-    for(let i = 0; i < colorButtons.length; i++) {
-        const colorButton = colorButtons[i];
-        if(colorButton.classList.contains(donutUp)) {
-            colorButton.classList.add('dancing');
+    const colorSections = document.querySelectorAll('.dance');
+    for(let i = 0; i < colorSections.length; i++) {
+        const colorSection = colorSections[i];
+        if(colorSection.classList.contains(donutUp)) {
+            colorSection.classList.add('dancing');
         }
     }
     
