@@ -47,7 +47,7 @@ button img {
 }
 
 .orange-donut {
-    color: orange;
+    color: rgb(252, 170, 82);
 }
 
 .yellow-donut {
@@ -66,9 +66,48 @@ button img {
     color: rgb(208, 103, 208);
 }
 
+.donut:hover {
+    background: black;
+}
+
+/* dancing */ 
+
+.dance-button {
+    margin: 10px;
+    padding: 30px;
+}
 .dance {
     transform: translateY(-30%);
     transition-timing-function: ease-in;
     transition: 0.2s;
+}
 
+.red-button:hover {
+    background: rgb(255, 138, 138);
+    color: white;
+}
+
+.orange-button:hover {
+    background: rgb(252, 170, 82);
+    color: white;   
+}
+
+.yellow-button:hover {
+    background: rgb(255, 255, 111);
+    color: white;
+}
+
+.green-button:hover {
+    background: rgb(88, 213, 138);
+    color: white;
+}
+
+.blue-button:hover {
+    background: rgb(26, 133, 227);
+    color: white;
+}
+
+.purple-button:hover {
+    background: rgb(208, 103, 208);
+    color: white;
 }
