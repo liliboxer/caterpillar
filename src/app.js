@@ -1,4 +1,5 @@
 import feedSlinky from '../src/feed-slinky.js';
+import removeAllDancing from './remove-all-dancing.js';
 
 const donutButtons = document.querySelectorAll('.donut');
 const body = document.getElementById('body');
@@ -23,7 +24,18 @@ for (let i = 0; i < danceButtons.length; i++) {
 
     danceButton.addEventListener('click', () => {
 
-        
+
     });
     
 }
+
+function removeAllDancing(span) {
+    const dancingParts = documet.querySelectorAll('.dance');
+    dancingParts.classList.remove('dance');
+};
+
+function addDancing() {
+    const dancingParts = document.querySelectorAll('.dance');
+    dancingParts.classList.add('dance');
+}
+
