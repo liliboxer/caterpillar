@@ -16,7 +16,7 @@ for(let i = 0; i < donutButtons.length; i++) {
 
 // dancing function
 
-const danceButtons = document.querySelectorAll('.dance');
+const danceButtons = document.querySelectorAll('.dance-button');
 
 for(let i = 0; i < danceButtons.length; i++) {
     const danceButton = danceButtons[i];
@@ -24,17 +24,20 @@ for(let i = 0; i < danceButtons.length; i++) {
     danceButton.addEventListener('click', () => {
         removeAllDancing();
         addDancing(danceButton.value);
+        console.log(danceButton);
     });
     
 }
 
 function removeAllDancing() {
-    const dancingParts = document.querySelectorAll('.dance');
-    for(let i = 0; i < dancingParts.length; i++) {
-        const dancingPart = dancingParts[i];
-        dancingPart.classList.remove('dance');
+    const colorButtons = document.querySelectorAll('.dance');
+    for(let i = 0; i < colorButtons.length; i++) {
+        const colorButton = colorButtons[i];
+        colorButton.classList.remove('dance');
+        console.log(colorButton);
     }
 }
+
 
 function addDancing(donutUp) {
     const colorButtons = document.querySelectorAll('.dance');

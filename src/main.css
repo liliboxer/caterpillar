@@ -66,3 +66,9 @@ button img {
     color: rgb(208, 103, 208);
 }
 
+.dance {
+    transform: translateY(-30%);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+
+}
