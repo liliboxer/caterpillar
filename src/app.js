@@ -14,4 +14,16 @@ for(let i = 0; i < donutButtons.length; i++) {
     });
 }
 
-// dancing functions
+// dancing function
+
+const danceButtons = document.querySelectorAll('.dance');
+
+for (let i = 0; i < danceButtons.length; i++) {
+    const danceButton = danceButtons[i];
+
+    danceButton.addEventListener('click', () => {
+
+        
+    });
+    
+}
