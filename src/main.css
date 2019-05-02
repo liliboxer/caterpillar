@@ -34,6 +34,7 @@ button img {
 .tail {
     margin-left: -33px;
     position: relative;
+    display: inline-block;
 
 }
 
