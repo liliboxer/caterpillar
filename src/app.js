@@ -29,9 +29,13 @@ for (let i = 0; i < danceButtons.length; i++) {
     
 }
 
-function removeAllDancing(span) {
-    const dancingParts = documet.querySelectorAll('.dance');
-    dancingParts.classList.remove('dance');
+function removeAllDancing() {
+    const dancingParts = document.querySelectorAll('.dance');
+        for (let i = 0; i < dancingParts.length; i++) {
+            const dancingPart = dancingParts[i];
+            dancingPart.classList.remove(dance);
+        }
+    
 };
 
 function addDancing() {
