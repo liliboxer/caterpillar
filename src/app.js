@@ -32,12 +32,16 @@ function removeAllDancing() {
     const dancingParts = document.querySelectorAll('.dance');
     for (let i = 0; i < dancingParts.length; i++) {
         const dancingPart = dancingParts[i];
-        dancingPart.classList.remove("dance");
+        dancingPart.classList.remove('dance');
     }
-    
 };
 
-function addDancing(donutButton) {
-    donutButton.classList.add('dance');
+function addDancing() {
+    const staticParts = document.querySelectorAll('.dance');
+    for (let i = 0; i < staticParts.length; i++) {
+        const staticPart = staticParts[i];
+        staticPart.classList.add('dance');
+    }
+    
 }
 
