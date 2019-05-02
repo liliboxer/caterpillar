@@ -40,7 +40,7 @@ function removeAllDancing() {
 
 
 function addDancing(donutUp) {
-    const colorSections = document.querySelectorAll('.dance');
+    const colorSections = document.querySelectorAll('.part');
     for(let i = 0; i < colorSections.length; i++) {
         const colorSection = colorSections[i];
         if(colorSection.classList.contains(donutUp)) {
