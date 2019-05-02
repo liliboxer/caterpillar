@@ -9,7 +9,7 @@ for(let i = 0; i < donutButtons.length; i++) {
     
     donutButton.addEventListener('click', () => {
         
-        feedSlinky(body, donutButton.value);
+        feedSlinky(body, donutButton.value, tail);
 
     });
 }
