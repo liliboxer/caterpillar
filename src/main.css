@@ -6,6 +6,10 @@ h1{
     margin: 40px;
 }
 
+h2 {
+    margin: 40px;
+}
+
 button img {
     width: 100px;
     height: 100px;
@@ -61,3 +65,4 @@ button img {
 .purple-donut {
     color: rgb(208, 103, 208);
 }
+
