@@ -1,9 +1,9 @@
-function feedSlinky(parentElement, donutName) {
+function feedSlinky(parentElement, donutName, tail) {
     const span = document.createElement('span');
     span.classList.add('part');
     span.classList.add(donutName);
     
-    parentElement.appendChild(span);
+    parentElement.insertBefore(span, tail);
 }
 
 export default feedSlinky;
